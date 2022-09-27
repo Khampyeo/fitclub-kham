@@ -1,0 +1,389 @@
+@media(max-width: 1023px) {
+
+    
+
+    /* TOP HEADER */
+    
+
+    /* HEADER */
+    .header{
+        z-index: 99;
+    }
+    .header__navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 54px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+
+    .header__navbar-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        position: relative;
+        z-index: 99;
+    }
+
+    .header__navbar-list::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        background-color: #a9a9a9;
+        top: 0;
+        transform: translateY(-10px);
+    }
+
+    .header__navbar-item {
+        margin: 8px 0;
+    }
+
+    .header__logo-menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__menu {
+
+        display: block;
+    }
+
+    .header__menu i {
+        font-size: 42px;
+        color: #FFFFFF;
+    }
+
+    /* HOME-PAGE */
+    .home-page {
+        width: 100%;
+        height: 800px;
+    }
+
+    .home-page__content-item {
+        height: 800px !important;
+        align-items: center;
+        /* padding: 80px 0; */
+    }
+
+    .home-page__wrap {
+        text-align: center;
+    }
+
+    .home-page--heading {
+        font-size: 42px;
+        /* line-height: 1.5; */
+        padding: 0 30px;
+    }
+
+    .home-page--sub-heading {
+        padding: 0 30px;
+    }
+
+    .home-page__advertise {
+        width: 100%;
+    }
+
+    .home-page__advertise-list {
+        flex-direction: column;
+    }
+    .advertise-item__info--name{
+        font-size: 30px;
+    }
+    .home-page--slide {
+        display: none !important;
+    }
+
+    /* ABOUT US */
+    .about-us--img{
+        display: none;
+    }
+    .about-us--heading {
+        font-size: 42px;
+    }
+
+    .about-us__content {
+        width: 100%;
+    }
+
+    /* POP COURSE */
+    .pop-courses--title{
+        font-size: 42px;
+    }
+    .pop-courses--slide {
+        display: none !important;
+    }
+
+    /* COUPON */
+    .coupon__wrap {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .coupon__content--title {
+        font-weight: 500;
+    }
+
+    .coupon__content--discount {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    .why-choose-us--heading {
+        font-size: 42px;
+        color: #fd3c3d;
+        padding: 0 15px;
+    }
+
+    .why-choose-us__content {
+        flex-direction: column;
+    }
+
+    .coupon--img {
+        width: 100%;
+    }
+
+    /* ACHIEMENT */
+
+    .achievement__list {
+        flex-direction: column;
+    }
+
+    .achievement__item {
+        margin-bottom: 60px;
+    }
+
+    .achievement__item--icon {
+        padding-bottom: 4px;
+    }
+
+    /* HLV */
+    .HLV__grid {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* .HLV__grid-item {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    /* SIGN UP */
+    
+
+    .sign-up__wrap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sign-up--tilte1 {
+        font-size: 28px;
+    }
+
+    .sign-up--title2 {
+        font-size: 50px;
+    }
+
+    .sign-up--button {
+        margin: 30px 0 0 0;
+    }
+
+    /* STORY */
+    .susscess-story--title {
+        font-size: 42px;
+    }
+
+    .news--title {
+        font-size: 42px;
+    }
+
+    .news__list {
+        flex-direction: column;
+    }
+
+    .news__item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* PARTNER */
+    .partner__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .partner__item {
+        margin: 15px;
+        /* width: 100%; */
+    }
+
+    /* TRY */
+    .try--title {
+        font-size: 42px;
+    }
+
+    .try__input-info {
+        flex-direction: column;
+    }
+
+    .try__input-info input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .try__input--content {
+        margin: 0;
+    }
+
+    /* CONTACT */
+    .contact__list{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .contact__email-info--title {
+        font-size: 42px;
+    }
+    .contact--title {
+        font-size: 16px;
+    }
+
+    .contact--info {
+        font-size: 14px;
+    }
+
+    /* TRY */
+    .try--title {
+        font-size: 42px;
+    }
+}
+
+@media(max-width: 539px) {
+    /* TOP HEADER */
+
+    .top-header {
+        padding: 14px;
+    }
+
+    .top-header__main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top-header__contact--phone {
+        margin-left: 0;
+    }
+
+    .time-sheet {
+        margin-bottom: 4px;
+    }
+    /* HOME PAGE */
+    .home-page__content-item {
+        height: 800px !important;
+        align-items: flex-start;
+        padding: 30px 0;
+    }
+    .home-page--heading {
+        font-size: 32px;
+        /* line-height: 1.5; */
+        padding: 0 30px;
+    }
+    .about-us__wrap{
+        padding-top: 400px;
+    }
+    /* POP COURSE */
+    .pop-courses--title{
+        font-size: 42px;
+    }
+    /* COUPON */
+    .coupon--img {
+        width: 100%;
+    }
+    /* HLV */
+    .HLV__grid {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .HLV__grid-item {
+        display: flex;
+        flex-direction: column;
+    }
+     /* ABOUT US */
+    
+    .about-us--heading {
+        font-size: 32px;
+    }
+    .why-choose-us--heading {
+        font-size: 32px;
+        color: #fd3c3d;
+    }
+    /* STORY */
+    .susscess-story--title {
+        font-size: 32px;
+    }
+    /* NEWS */
+    .news--title {
+        font-size: 32px;
+    }
+    /* PARTNER */
+    .partner__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partner__item {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+     /* CONTACT */
+     .contact__list {
+        flex-direction: column;
+    }
+
+    .contact__item {
+        width: 100%;
+        height: auto;
+        padding: 28px 0;
+        margin-bottom: 4px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .contact__item i {
+        font-size: 28px;
+    }
+
+    .contact__content {
+        margin-left: 15px;
+        flex: 1;
+        /* text-align: end; */
+    }
+
+    .contact--title {
+        font-size: 16px;
+    }
+
+    .contact--info {
+        font-size: 14px;
+    }
+
+    .contact__email-info--title {
+        font-size: 32px;
+    }
+
+    .contact__input-email {
+        width: 100%;
+    }
+    /* TRY */
+    .try--title {
+        font-size: 32px;
+    }
+}
